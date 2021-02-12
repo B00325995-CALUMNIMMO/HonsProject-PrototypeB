@@ -1,0 +1,98 @@
+:root {
+    --background: whitesmoke;
+    --containers: #3991C6;
+    --textHeaders: #91C639;
+    --textGeneral: #C63991;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+}
+
+header {
+    width: 95%;
+    height: 110px;
+    margin: 0 auto;
+    border-bottom: 20px solid var(--containers);
+}
+
+header .logo {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+header .logo img{
+    width: 10%;
+    height: 10%;
+}
+
+header .logo h1{
+    color: var(--containers);
+}
+
+header .logo h1 span{
+    color: var(--containers);
+}
+
+header .cx {
+    width: 80%;
+    float: left;
+}
+
+header .header, header .searchBar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: left;
+}
+
+header .header ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+header .header ul li a{
+    color: var(--textHeaders);
+    text-decoration: none;
+}
+
+header .header ul:nth-child(1) {
+    width: 55%;
+}
+
+header .searchBar input {
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    color: var(--textGeneral);
+    border: 1px solid var(--containers);
+    outline: none;
+}
+
+header .searchBar a{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--containers);
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background: var(--containers);
+    transition: 0.4s;
+}
+
+header .searchBar a:hover {
+    transition: 0.4s;
+    transition-delay: 0.1s;
+    color: var(--textGeneral);
+    background: whitesmoke;
+}
