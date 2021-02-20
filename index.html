@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/564f044dcc.js" crossorigin="anonymous"></script>
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"> <!-- Favicon allows for an icon to be displayed in the title on browser-->
     <title>Welcome to Albatech</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Alba-<span>Tech</span></h1>
-            <!-- <img src="images/favicon.png" alt=""> -->
+            <h1>Alba<span>Tech</span></h1> 
+            <img src="images/favicon.png" alt="">
         </div>
-        <div class="cx"></div>
-        <div>
-            <div class="header">
+        <div class="cx"> <!-- Somehow not closing the div here fixes logo issues??-->
+            <div class="head">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -33,8 +32,8 @@
             <div class="searchBar">
                 <input type="text">
                 <a href="#"><i class="fas fa-search"></i>Search</a>
-                <a href="#"><i class="fas fa-angle-down"></i></a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-angle-down"></i>Category</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i>Cart</a>
             </div>
         </div>
     </header>
@@ -59,10 +58,10 @@
             <div>
                 <h1>20%</h1>
                 <h1>OFF</h1>
-                <h1>Today</h1>
+                <h1>Today</h1> 
                 <button>Buy-now</button>
+                <img src="images/banner2.png" alt="">
             </div>
-            <img src="images/categories/Accessories.jpg" alt="">
         </section>
         <section class="featured"> <!-- Featured section to show must sell products, under mainBanner-->
             <div class="featuredItems">
@@ -71,7 +70,7 @@
                     <p>Ryzen 7 5800X</p>
                     <button>View Item</button>
                 </div>
-                <img src="#" alt="">
+                <img src="images/products/CPUs/R7 5800X.png" alt="">
             </div>
             <div class="featuredItems">
                 <div>
@@ -79,7 +78,7 @@
                     <p>ASUS Duel RTX 3070</p>
                     <button>View Item</button>
                 </div>
-                <img src="#" alt="">
+                <img src="images/products/GPUs/Asus DUEL RTX 3070.png" alt="">
             </div>
             <div class="featuredItems">
                 <div>
@@ -87,14 +86,17 @@
                     <p>Master Case H500</p>
                     <button>View Item</button>
                 </div>
-                <img src="#" alt="">
+                <img src="images/products/Cases/CM MC H500.png" alt="">
             </div>
         </section>
-        <section class="cl"> <!-- Beginning of the Accessories Section of Index-->
+
+        <!-- Beginning of the Accessories Section of Index-->
+
+        <section class="cl"> 
             <h1>Accessories</h1>
             <section class="products">
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/Accessories/Arctic Silver 5.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
@@ -105,7 +107,7 @@
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/Accessories/Corsair K95 RGB Platinum Keyboard.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 2</p>
@@ -116,7 +118,7 @@
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/Accessories/Kryo_1g.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 3</p>
@@ -125,8 +127,53 @@
                         </div>
                         <button>Add to cart</button>
                     </div>
+                </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/Accessories/Logitech G502 HERO Wired Mouse.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/Accessories/Logitech G502 HERO Wired Mouse.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/Accessories/Logitech G502 HERO Wired Mouse.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/Accessories/Logitech G502 HERO Wired Mouse.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/Accessories/Logitech G502 HERO Wired Mouse.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 4</p>
@@ -138,37 +185,14 @@
                 </div>
             </section>
         </section>
-        <section class="large"> <!-- This might not fit here in post, please remove and shift when needed-->
-            <div class="inner-large">
-                <img src="#" alt="">
-                <div>
-                    <h1>Item Large 1</h1>
-                    <h1>Up to 20% off</h1>
-                    <h1>£10.00</h1>
-                </div>
-            </div>
-            <div class="inner-large">
-                <img src="#" alt="">
-                <div>
-                    <h1>Item Large 2</h1>
-                    <h1>Up to 20% off</h1>
-                    <h1>£10.00</h1>
-                </div>
-            </div>
-            <div class="inner-large">
-                <img src="#" alt="">
-                <div>
-                    <h1>Item Large 3</h1>
-                    <h1>Up to 20% off</h1>
-                    <h1>£10.00</h1>
-                </div>
-            </div>
-        </section>
-        <section class="cl"> <!-- Beginning of the CPUs Section of Index-->
+
+        <!-- Beginning of the CPUs Section of Index-->
+
+        <section class="cl"> 
             <h1>CPUs</h1>
             <section class="products">
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
@@ -179,7 +203,7 @@
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 2</p>
@@ -190,7 +214,7 @@
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 3</p>
@@ -201,7 +225,7 @@
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="#" alt="">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 4</p>
@@ -211,14 +235,827 @@
                         <button>Add to cart</button>
                     </div>
                 </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Cases Section of Index-->
+
+        <section class="cl"> 
+            <h1>Cases</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the GPUs section -->
+
+        <section class="cl"> 
+            <h1>GPUs</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Memory Section -->
+
+        <section class="cl"> 
+            <h1>Memory</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Monitors Section -->
+
+        <section class="cl"> 
+            <h1>Monitors</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Motherboards Section -->
+
+        <section class="cl"> 
+            <h1>Motherboards</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the PSUs Section -->
+
+        <section class="cl"> 
+            <h1>Power Supplies</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Software Section -->
+
+        <section class="cl"> 
+            <h1>Software</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Beginning of the Storage Section -->
+
+        <section class="cl"> 
+            <h1>Storage</h1>
+            <section class="products">
+                <div class="products-inner">
+                    <img src="/images/products/CPUs/I3 10320.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 1</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I5 10600K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 2</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I7 10700K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 3</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 4</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 5</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 6</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 7</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="products-inner">
+                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <div class="products-innerLeft">
+                        <div>
+                            <p>Item Name 8</p>
+                            <h5>£20.00</h5>
+                            <del>£50.00</del> 
+                        </div>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
             </section>
         </section>
     </main>
+
     <footer> <!-- Footer Section of Website -->
         <div>
             <p>Subscription</p>
             <input type="text" placeholder="Your Email Here">
-            <button>Subscripe</button>
+            <button>Subscribe</button>
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-twitter-square"></i>
             <i class="fab fa-instagram-square"></i>
@@ -242,3 +1079,30 @@
     </footer>
 </body>
 </html>
+
+        <!-- <section class="large"> 
+            <div class="inner-large">
+                <img src="#" alt="">
+                <div>
+                    <h1>Item Large 1</h1>
+                    <h1>Up to 20% off</h1>
+                    <h1>£10.00</h1>
+                </div>
+            </div>
+            <div class="inner-large">
+                <img src="" alt="">
+                <div>
+                    <h1>Item Large 2</h1>
+                    <h1>Up to 20% off</h1>
+                    <h1>£10.00</h1>
+                </div>
+            </div>
+            <div class="inner-large">
+                <img src="#" alt="">
+                <div>
+                    <h1>Item Large 3</h1>
+                    <h1>Up to 20% off</h1>
+                    <h1>£10.00</h1>
+                </div>
+            </div>
+        </section> -->

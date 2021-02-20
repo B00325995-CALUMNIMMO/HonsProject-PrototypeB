@@ -1,5 +1,5 @@
 :root {
-    --background: whitesmoke;
+    --background: #f5f5f5;
     --containers: #3991C6;
     --textHeaders: #91C639;
     --textGeneral: #C63991;
@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    width: 95%;
+    width: 96%;
     height: 110px;
     margin: 0 auto;
-    border-bottom: 20px solid var(--containers);
+    border-bottom: 2px solid var(--containers);
 }
 
 header .logo {
@@ -46,26 +46,33 @@ header .cx {
     float: left;
 }
 
-header .header, header .searchBar {
+header .head, 
+header .searchBar {
     width: 100%;
     height: 55px;
     display: flex;
     justify-content: left;
 }
 
-header .header ul li {
+header .head ul li {
     list-style: none;
     float: left;
     padding: 10px;
     margin: 10px;
 }
 
-header .header ul li a{
+header .head ul li a{
     color: var(--textHeaders);
     text-decoration: none;
 }
 
-header .header ul:nth-child(1) {
+header .head ul li a:hover{
+    color: var(--textGeneral);
+    font-size: 110%;
+    cursor: pointer;
+}
+
+header .head ul:nth-child(1) { /* Allows for us to pick elements based on their position in a group of siblings. In this case, postion "1" */
     width: 55%;
 }
 
@@ -95,4 +102,213 @@ header .searchBar a:hover {
     transition-delay: 0.1s;
     color: var(--textGeneral);
     background: whitesmoke;
+}
+
+nav {
+    width: 96%;
+    height: 50px;
+    margin: 0px auto;
+    background: var(--containers);
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: var(--textGeneral);
+    font-size: 110%;
+    cursor: pointer;
+}
+
+nav ul li a>i {
+    margin-right: 10px;
+}
+
+main { /* not to be confused with "main body" but the HTML element Main */
+    width: 96%; /* Allows for just off of the left margin */
+    height: auto;
+    margin: 0px auto;
+}
+
+main .mainBanner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    background: var(--background);
+}
+
+main .mainBanner div{
+    text-align: center;
+    width: 30%;
+}
+
+main .mainBanner div h1{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: var(--textGeneral);
+}
+
+main .mainBanner div button {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+    padding: 10px;
+    top: 200px;
+    width: 100px;
+    background: var(--containers);
+    color: black;
+}
+
+main .mainBanner img {
+    background-size: 1000px;
+    height: 1000px;
+}
+
+.featured {
+    width: 96%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured .featuredItems {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured .featuredItems div{
+    padding-top: 20px;
+}
+
+.featured .featuredItems div button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: var(--containers);
+}
+
+.featured .featuredItems div button:hover {
+    font-size: 105%;
+    color: var(--textGeneral);
+    background: var(--background);
+}
+
+.featured .featuredItems img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cl {
+    width: 96%;
+    height: 550px;
+}
+
+.cl h1 {
+    width: 104%;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: var(--containers);
+}
+
+.products {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.products .products-inner {
+    width: 20%;
+}
+
+.products .products-inner img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 50px;
+}
+
+.products .products-inner .products-innerLeft {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+
+.products .products-inner .products-innerLeft button {
+    height: 35px;
+    width: 35%;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: var(--containers);
+    color: white;
+}
+
+.products .products-inner .products-innerLeft button:hover {
+    height: 50px;
+    width: 45%;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: var(--containers);
+    color: var(--textGeneral);
+}
+
+footer {
+    width: 96%;
+    height: 400px;
+    margin: 20px auto;
+    padding-top: 20px;
+    border-top: 2px solid var(--containers);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div p{
+    margin: 30px auto;
+}
+
+footer div input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid var(--containers);
+}
+
+footer div button {
+    border: none;
+    outline: none;
+    background: var(--containers);
+    color: black;
+    font-weight: bold;
+    margin-left: -4px;
+    padding: 8px;
+}
+
+footer div i {
+    padding: 10px 11.5px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--containers);
 }
