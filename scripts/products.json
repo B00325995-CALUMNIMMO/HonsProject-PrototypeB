@@ -1,0 +1,70 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 2,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 3,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 4,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 5,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 6,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 7,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 8,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 9,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 10,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 11,
+            "title": "#",
+            "price": 123,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        }
+    ]
+}
