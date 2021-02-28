@@ -2,68 +2,476 @@
     "status": "success",
     "items": [{
             "id": 1,
-            "title": "#",
-            "price": 123,
-            "image": "./images/products/CPUs/R5 5600X.png"
+            "title": "I3 103020",
+            "price": 160,
+            "image": "../../images/products/CPUs/I310320.png"
         },
         {
             "id": 2,
-            "title": "#",
-            "price": 123,
+            "title": "I5 10600K",
+            "price": 243,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 3,
-            "title": "#",
-            "price": 123,
+            "title": "I7 10700K",
+            "price": 160,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 4,
-            "title": "#",
-            "price": 123,
+            "title": "I9 10900K",
+            "price": 160,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 5,
-            "title": "#",
+            "title": "R3 3300X",
             "price": 123,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 6,
-            "title": "#",
+            "title": "R5 5600X",
             "price": 123,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 7,
-            "title": "#",
+            "title": "R7 5800X",
             "price": 123,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 8,
-            "title": "#",
+            "title": "R9 5950X",
             "price": 123,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 9,
-            "title": "#",
-            "price": 123,
+            "title": "ASUS ROG STRIX B550-F Gaming",
+            "price": 180,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 10,
-            "title": "#",
-            "price": 123,
+            "title": "MSI MEG X570 UNIFY",
+            "price": 286,
             "image": "./images/products/CPUs/R5 5600X.png"
         },
         {
             "id": 11,
-            "title": "#",
-            "price": 123,
+            "title": "MSI B550M PRO-VDH WIFI",
+            "price": 120,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 12,
+            "title": "ASUS ROG STRIX X570-I",
+            "price": 250,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 13,
+            "title": "ASUS PRIME B450-PLUS",
+            "price": 119,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 14,
+            "title": "ASUS ROG STRIX Z490-E GAMING",
+            "price": 285,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 15,
+            "title": "MSI MEG Z490I UNIFY",
+            "price": 200,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 16,
+            "title": "ASROCK B460M PRO4",
+            "price": 90,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 17,
+            "title": "CORSAIR VENGEANCE LPX 8GB",
+            "price": 33,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 18,
+            "title": "CORSAIR VENGEANCE LPX 16GB",
+            "price": 47,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 19,
+            "title": "CORSAIR VENGEANCE LPX 32GB",
+            "price": 160,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 20,
+            "title": "G.SKILL TRIDENT Z RGB 16GB",
+            "price": 105,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 21,
+            "title": "KINGSTON HYPERX FURY 8GB",
+            "price": 56,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 22,
+            "title": "KINGSTON HYPERX FURY 16GB",
+            "price": 80,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 23,
+            "title": "CORSAIR DOMINATOR PLATINUM 16GB",
+            "price": 250,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 24,
+            "title": "G.SKILL TRIDENT Z 32GB",
+            "price": 160,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 25,
+            "title": "SAMSUNG 860 EVO 500GB SSD",
+            "price": 76,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 26,
+            "title": "SAMSUNG 860 EVO 1TB SSD",
+            "price": 85,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 27,
+            "title": "SAMSUNG 970 EVO 500GB M.2 SSD",
+            "price": 80,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 28,
+            "title": "SAMSUNG 970 EVO 1TB M.2 SSD",
+            "price": 160,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 29,
+            "title": "WD CAVIAR BLUE 1TB HDD",
+            "price": 37,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 30,
+            "title": "SEAGATE BARRACUDA 1TB HDD",
+            "price": 100,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 31,
+            "title": "WD BLACK 4TB HDD",
+            "price": 180,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 32,
+            "title": "FRACTAL DESIGN MESHIFY C",
+            "price": 100,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 33,
+            "title": "COOLER MASTER MASTERCASE H500",
+            "price": 191,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 34,
+            "title": "CORSAIR 750D",
+            "price": 150,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 35,
+            "title": "LIAN LI PC-O11 DYNAMIC RAZER",
+            "price": 254,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 36,
+            "title": "FRACTAL DESIGN NODE 804",
+            "price": 140,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 37,
+            "title": "CORSAIR CRYSTAL 280X",
+            "price": 108,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 38,
+            "title": "FRACTAL DESIGN NODE 304",
+            "price": 77,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 39,
+            "title": "NZXT H210I",
+            "price": 110,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 40,
+            "title": "EVGA BR 80+ 500W NON-MODULAR",
+            "price": 46,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 41,
+            "title": "SEASONIC MI2II 620W 80+BR NON-MODULAR",
+            "price": 91,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 42,
+            "title": "CORSAIR TXM 80+GLD 650W SEMI-MODULAR",
+            "price": 80,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 43,
+            "title": "CORSAIR CXM 450W 80+BR SEMI-MODULAR",
+            "price": 60,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 44,
+            "title": "EVGA G3 80+GLD 750W FULLY-MODULAR",
+            "price": 169,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 45,
+            "title": "SEASONIC FOCUS 80+GLD 650W FULLY-MODULAR",
+            "price": 148,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 46,
+            "title": "EVGA P2 80+PLT 750W FULLY-MODULAR",
+            "price": 200,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 47,
+            "title": "SEASONIC PRIME 80+TM 1000W FULLY-MODULAR",
+            "price": 273,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 48,
+            "title": "MICROSOFT WINDOWS 10 64-BIT",
+            "price": 101,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 49,
+            "title": "MICROSOFT WINDOWS 10 PRO 64-BIT",
+            "price": 198,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 50,
+            "title": "MICROSOFT OFFICE 363 HOME",
+            "price": 60,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 51,
+            "title": "MICROSOFT PROJECT 2019",
+            "price": 591,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 52,
+            "title": "ADOBE CREATIVE CLOUD 1 YEAR SUB",
+            "price": 540,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 53,
+            "title": "MCAFEE ANTIVIRUS 2019 1 YEAR SUB",
+            "price": 60,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 54,
+            "title": "NORDVPN 1 YEAR SUB",
+            "price": 45,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 55,
+            "title": "BITDEFENDER ANTIVIRUS PLUS",
+            "price": 30,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 56,
+            "title": "THERMAL GRIZZLY KRYONAUT 1G",
+            "price": 7,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 57,
+            "title": "ARCTIC SILVER 5 POLYSYNTH 12G",
+            "price": 15,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 58,
+            "title": "NOCTUA F12 PWM 120MM",
+            "price": 18,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 59,
+            "title": "NZXT AER RGB 2 140MM",
+            "price": 25,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 60,
+            "title": "CORSAIR K95 RGB PLAT KEYBOARD",
+            "price": 190,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 61,
+            "title": "LOGITECH G915 LIGHTSPEED KEYBOARD",
+            "price": 252,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 62,
+            "title": "LOGITECH G502 HERO WIRED MOUSE",
+            "price": 71,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 63,
+            "title": "LOGITECH G900 CHAOS MOUSE",
+            "price": 100,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 64,
+            "title": "ACER SB220QBI 1080P 60HZ",
+            "price": 304,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 65,
+            "title": "ASUS PB277Q 75HZ 1440P",
+            "price": 273,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 66,
+            "title": "LG 27UD58-B 4K 60HZ",
+            "price": 509,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 67,
+            "title": "LG 27GL850-B 1440P 144HZ",
+            "price": 468,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 68,
+            "title": "DELL P2217H 60HZ",
+            "price": 236.92,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 69,
+            "title": "AOC C27G1 1080P CURVED",
+            "price": 310,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 70,
+            "title": "DELL S3220DGF 1440P CURVED",
+            "price": 400,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 71,
+            "title": "MSI OPTIX MAG321CURV 4K",
+            "price": 567,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 72,
+            "title": "MSI RTX 3060TI TRIO",
+            "price": 490,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 73,
+            "title": "ASUS RTX 3060 TI TUF GAMING",
+            "price": 499,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 74,
+            "title": "MSI VENTUS 2X OC RTX 3070",
+            "price": 573,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 75,
+            "title": "ASUS DUEL RTX 3070",
+            "price": 576,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 76,
+            "title": "EVGA XC3 RTX 3080",
+            "price": 709,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 77,
+            "title": "ASUS TUF GAMING RTX 3080",
+            "price": 800,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 78,
+            "title": "MSI GAMING X RX 5700XT",
+            "price": 573,
+            "image": "./images/products/CPUs/R5 5600X.png"
+        },
+        {
+            "id": 79,
+            "title": "MSI MECH OC RX 5700XT",
+            "price": 582,
             "image": "./images/products/CPUs/R5 5600X.png"
         }
     ]
