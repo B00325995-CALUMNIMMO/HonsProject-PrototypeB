@@ -1,156 +1,28 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/564f044dcc.js" crossorigin="anonymous"></script>
-    <script src="scripts/cart.js"></script>
-    <link rel="stylesheet" href="css/cart.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <title>Albatech - Your Shopping Cart</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel ="stylesheet" type="text/css" href="css/cart.css">
+  <script src="https://kit.fontawesome.com/564f044dcc.js" crossorigin="anonymous"></script>
+  <title>Albatech - Your Cart</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Alba<span>Tech</span></h1> 
-            <img src="images/favicon.png" alt="">
-        </div>
-        <div class="cx"> <!-- Somehow not closing the div here fixes logo issues??-->
-            <div class="head">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Our Dealers</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#"><i class="fa fa-phone"></i>Call us: +44 1234 5678</a></li>
-                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>Find us</a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"></i>My Account</a></li>
-                </ul>
-            </div>
-            <div class="searchBar">
-                <input type="text">
-                <a href="#"><i class="fas fa-search"></i>Search</a>
-                <a href="#"><i class="fas fa-angle-down"></i>Category</a>
-                <a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="container"></div>
     <nav>
-        <ul>
-            <!-- Using icons to increase user navigation-->
-            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-            <li><a href="#"><i class="fas fa-keyboard"></i>Accessories</a></li>
-            <li><a href="#"><i class="fas fa-microchip"></i>CPUs</a></li>
-            <li><a href="#"><i class="fas fa-tablet"></i>Cases</a></li>
-            <li><a href="#"><i class="fas fa-search"></i>Graphics Cards</a></li>
-            <li><a href="#"><i class="fas fa-search"></i>Motherboards</a></li>
-            <li><a href="#"><i class="fas fa-memory"></i>Memory</a></li>
-            <li><a href="#"><i class="fas fa-desktop"></i>Monitors</a></li>
-            <li><a href="#"><i class="fas fa-car-battery"></i>Power Supplies</a></li>
-            <li><a href="#"><i class="fab fa-uncharted"></i>Software</a></li>
-            <li><a href="#"><i class="fas fa-hdd"></i>Storage</a></li>
-        </ul>
+      <h2>Albatech Cart</h2>
+      <ul>
+        <li><a href="index.html">Back To Home</a></li>
+        <li class="cart">
+          <a href="cart.html">
+            <i class="fas fa-shopping-cart"></i>Cart</a>
+          </a>
+        </li>
+      </ul>
     </nav>
-
-    <!-- JS Shopping cart start -->
-    <!-- Products -->
-  <section class="products">
-    <div class="product__center">
-      <!-- Single Product -->
-      <div class="product">
-        <div class="image__container">
-          <img src="./images/products/CPUs/R5 5600X.png" alt="" />
-        </div>
-        <div class="product__footer">
-          <h1>The Original Super Donut</h1>
-          <div class="rating">
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-star-full"></use>
-              </svg>
-            </span>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-star-full"></use>
-              </svg>
-            </span>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-star-full"></use>
-              </svg>
-            </span>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-star-full"></use>
-              </svg>
-            </span>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-star-empty"></use>
-              </svg>
-            </span>
-          </div>
-          <div class="bottom">
-            <div class="btn__group">
-              <a href="#" class="btn addToCart">Add to Cart</a>
-              <a href="#" class="btn view">View</a>
-            </div>
-            <div class="price">$255.99</div>
-          </div>
-        </div>
-      </div>
-      <!-- End of Single Product -->
-    </div>
-  </section>
-
-  <section class="cart__overlay">
-    <div class="cart">
-      <span class="close__cart">
-        <svg>
-          <use xlink:href="./images/transBack.svg#icon-cross"></use>
-        </svg>
-      </span>
-      <h1>Your Cart</h1>
-      <div class="cart__centent">
-        <!-- Cart Item -->
-        <div class="cart__item">
-          <img src="./images/product-1.jpg" alt="">
-          <div>
-            <h3>The Original Super Donut</h3>
-            <h3 class="price">$750</h3>
-          </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-angle-up"></use>
-              </svg>
-            </span>
-            <p>3</p>
-            <span>
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-angle-down"></use>
-              </svg>
-            </span>
-          </div>
-          <div>
-            <span class="remove__item">
-              <svg>
-                <use xlink:href="./images/transBack.svg#icon-trash"></use>
-              </svg>
-            </span>
-          </div>
-        </div> 
-      </div>
-
-      <div class="cart__footer">
-        <h3>Total: $ <span class="cart__total">0</span></h3>
-        <button class="clear__cart btn">Clear Cart</button>
-      </div>
-    </div>
-  </section>
-    <!-- JS Shopping cart End -->
+  </header>
 </body>
 </html>

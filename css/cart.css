@@ -5,139 +5,81 @@
     --textGeneral: #C63991;
 }
 
-*,
-*::before, /* inserts something before the content of each selected element */
-*::after  /* selector inserts something after the content of each selected element */{
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    /* font-size: 62%; */
-}
-
-body {
-    background-color: var(--background);
-
 }
 
 header {
-    width: 96%;
-    height: 110px;
-    margin: 0 auto;
-    border-bottom: 2px solid var(--containers);
-}
-
-header .logo {
-    width: 15%;
-    float: left;
-    text-align: center;
-}
-
-header .logo img{
-    width: 10%;
-    height: 10%;
-}
-
-header .logo h1{
-    color: var(--containers);
-}
-
-header .logo h1 span{
-    color: var(--containers);
-}
-
-header .cx {
-    width: 85%;
-    float: left;
-}
-
-header .head, 
-header .searchBar {
-    width: 100%;
-    height: 55px;
-    display: flex;
-    justify-content: left;
-}
-
-header .head ul li {
-    list-style: none;
-    float: left;
-    padding: 10px;
-    margin: 10px;
-}
-
-header .head ul li a{
-    color: var(--textHeaders);
-    text-decoration: none;
-}
-
-header .head ul li a:hover{
-    color: var(--textGeneral);
-    font-size: 110%;
-    cursor: pointer;
-}
-
-header .head ul:nth-child(1) { /* Allows for us to pick elements based on their position in a group of siblings. In this case, postion "1" */
-    width: 55%;
-}
-
-header .searchBar input {
-    width: 70%;
-    height: 40px;
-    padding: 10px;
-    color: var(--textGeneral);
-    border: 1px solid var(--containers);
-    outline: none;
-}
-
-header .searchBar a{
-    width: 100px;
-    height: 40px;
-    padding: 10px;
-    border: 1px solid var(--containers);
     position: relative;
-    text-decoration: none;
-    color: black;
-    background: var(--containers);
-    transition: 0.4s;
+    height: 180px;
+    background-image: url('../images/cartBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-header .searchBar a:hover {
-    transition: 0.4s;
-    transition-delay: 0.1s;
-    color: var(--textGeneral);
-    background: whitesmoke;
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* Behind */
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgba(10,10,10,0.3); /* Makes the background img dimmer */
 }
 
 nav {
-    width: 96%;
-    height: 50px;
-    margin: 0px auto;
-    background: var(--containers);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2; /* In Front */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
 }
 
-nav ul li {
-    list-style: none;
-    float: left;
+nav li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+nav li span {
+    padding-left: 5px;
+}
+
+li a {
     padding: 10px;
-    margin: 0px 20px;
-}
-
-nav ul li a {
+    background-color: var(--containers);
     text-decoration: none;
-    text-align: center;
     color: black;
-}
-
-nav ul li a:hover {
-    color: var(--textGeneral);
-    font-size: 110%;
+    top: 200px;
+    width: 100px;
+    transition: 0.5s;
     cursor: pointer;
 }
 
-nav ul li a>i {
-    margin-right: 10px;
+li a:hover {
+    background-color: var(--background);
+    color: var(--textGeneral);
+    transition: 0.5s;
+}
+
+.cart {
+    vertical-align: bottom;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.cart a {
+    cursor: pointer;
+    text-decoration: none;
 }
