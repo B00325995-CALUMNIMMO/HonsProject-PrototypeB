@@ -104,6 +104,26 @@ header .searchBar a:hover {
     background: whitesmoke;
 }
 
+/* Fix for out of place cart icon*/
+header .searchBar .cartIcon a{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--containers);
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    background: var(--containers);
+    transition: 0.4s;
+}
+
+header .searchBar .cartIcon a:hover {
+    transition: 0.4s;
+    transition-delay: 0.1s;
+    color: var(--textGeneral);
+    background: whitesmoke;
+}
+
 nav {
     width: 96%;
     height: 50px;
@@ -216,6 +236,7 @@ main .mainBanner img {
 .featured .featuredItems img {
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 
 .cl {
@@ -244,20 +265,25 @@ main .mainBanner img {
 
 .products .products-inner img {
     max-width: 100%;
-    max-height: 300px;
+    height: 20vh; /* Mostly fixes the issues of scaling when at default screen size (1080p)*/
     margin-bottom: 50px;
+    object-fit: cover;
 }
 
 .products .products-inner .products-innerLeft {
     display: flex;
     flex-wrap: row;
     justify-content: space-around;
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
 }
 
 .products .products-inner .products-innerLeft button {
-    height: 35px;
-    width: 35%;
-    align-self: center;
+    height: 50px;
+    min-width: 40%;
+    padding: 5px;
+    align-self: auto;
     border: none;
     outline: none;
     background: var(--containers);
@@ -265,9 +291,9 @@ main .mainBanner img {
 }
 
 .products .products-inner .products-innerLeft button:hover {
-    height: 50px;
-    width: 45%;
-    align-self: center;
+    height: 60px;
+    min-width: 45%;
+    align-self: auto;
     border: none;
     outline: none;
     background: var(--containers);
