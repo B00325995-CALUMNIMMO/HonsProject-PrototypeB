@@ -33,8 +33,10 @@
                 <input type="text">
                 <a href="#"><i class="fas fa-search"></i>Search</a>
                 <a href="#"><i class="fas fa-angle-down"></i>Category</a>
-                <div class="cart__icon">
-                    <a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a>
+                <div class="cartIcon">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>Cart<span>0</span> <!-- Adds a qty to cart icon-->
+                    </a>
                 </div>
             </div>
         </div>
@@ -105,7 +107,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> <!-- Another way to display a discount. Of course, I find this out now-->
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -116,7 +118,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -127,7 +129,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -138,7 +140,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -149,7 +151,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -160,7 +162,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -171,7 +173,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
@@ -182,7 +184,7 @@
                             <h5>£20.00</h5>
                             <del>£50.00</del> 
                         </div>
-                        <button id="addToCart">Add to cart</button>
+                        <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
             </section>
@@ -197,9 +199,9 @@
                     <img src="/images/products/CPUs/I3 10320.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 1</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Intel I3 10320</p>
+                            <del>£160.00</del> 
+                            <h5>£200</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -208,9 +210,9 @@
                     <img src="images/products/CPUs/I5 10600K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Intel I5 10600K</p>
+                            <del>£243.24</del>
+                            <h5>£255.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -219,9 +221,9 @@
                     <img src="images/products/CPUs/I7 10700K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Intel I7 10700K</p>
+                            <del>£160.00</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -230,53 +232,53 @@
                     <img src="images/products/CPUs/I9 10900K.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>I9 10900K</p>
+                            <del>£160.00</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <img src="images/products/CPUs/R3 3300X.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Ryzen 3 3300X</p>
+                            <del>£160.00</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <img src="images/products/CPUs/R5 5600X.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>RYZEN 5 5600X</p>
+                            <del>£160.00</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <img src="images/products/CPUs/R7 5800X.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>RYZEN 7 5800X</p>
+                            <del>£381.60</del> 
+                            <h5>£400.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
                 </div>
                 <div class="products-inner">
-                    <img src="images/products/CPUs/I9 10900K.png" alt="">
+                    <img src="images/products/CPUs/R9 5950X.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>RYZEN 9 5950X</p>
+                            <del>£160.00</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -293,9 +295,9 @@
                     <img src="/images/products/Cases/C 750D.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 1</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>CORSAIR 750D</p>
+                            <del>£150.00</del> 
+                            <h5>£150.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -304,9 +306,9 @@
                     <img src="images/products/Cases/CM MC H500.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>COOLER MASTER MASTERCASE H500</p>
+                            <del>£190.80</del> 
+                            <h5>£200.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -315,9 +317,9 @@
                     <img src="images/products/Cases/Crystal 280X.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>CORSAIR CRYSTAL 280X</p>
+                            <del>£107.80</del> 
+                            <h5>£107.80</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -326,9 +328,9 @@
                     <img src="images/products/Cases/Dynamic Razer.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>LIAN LI DYNAMIC RAZER</p>
+                            <del>£254.40</del> 
+                            <h5>£300.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -337,9 +339,9 @@
                     <img src="images/products/Cases/H210i.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>NZXT H210I</p>
+                            <del>£110.00</del> 
+                            <h5>£110.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -348,9 +350,9 @@
                     <img src="images/products/Cases/Meshify-C-Solid_1.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>FRACTAL DESIGN MESHIFY C</p>
+                            <del>£100.00</del> 
+                            <h5>£100.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -359,9 +361,9 @@
                     <img src="images/products/Cases/Node 804.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>FRACTAL DESIGN NODE 804</p>
+                            <del>£139.92</del> 
+                            <h5>£165.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -370,9 +372,9 @@
                     <img src="images/products/Cases/NODE-304-BL_3.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>FRACTAL DESGIN NODE 304</p>
+                            <del>£76.95</del> 
+                            <h5>£76.95</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -389,9 +391,9 @@
                     <img src="/images/products/GPUs/Asus DUEL RTX 3070.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 1</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>ASUS DUEL RTX 3070</p>
+                            <del>575.90</del> 
+                            <h5>£603.67</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -400,9 +402,9 @@
                     <img src="images/products/GPUs/Asus RTX 3060 Ti TUF GAMING.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>ASUS RTX 3060TI TUF GAMING</p>
+                            <del>£498.73</del> 
+                            <h5>£498.73</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -411,9 +413,9 @@
                     <img src="images/products/GPUs/ASUS TUF Gaming RTX 3080.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>ASUS RTX 3080 TUF GAMING</p>
+                            <del>£800.00</del> 
+                            <h5>£800.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -422,9 +424,9 @@
                     <img src="images/products/GPUs/EVGA XC3 RTX 3080.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>EVGA XC3 RTX 3080</p>
+                            <del>£708.51</del> 
+                            <h5>£742.67</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -433,9 +435,9 @@
                     <img src="images/products/GPUs/MSI GAMING X RX 5700XT.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>MSI GAMINGX RX5700XT</p>
+                            <del>£581.94</del> 
+                            <h5>£610.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -444,9 +446,9 @@
                     <img src="images/products/GPUs/MSI MECH OC RX 5700XT.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>MSI MECH OC RX5700XT</p>
+                            <del>£572.95</del> 
+                            <h5>£572.95</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -455,9 +457,9 @@
                     <img src="images/products/GPUs/MSI RTX 3060Ti TRIO.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>MSI RTX 3060TI TRIO</p>
+                            <del>£490.00</del> 
+                            <h5>£490.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -466,9 +468,9 @@
                     <img src="images/products/GPUs/MSI Ventus 2x OC RTX 3070.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>MSI VENTUS 2XOC RTX3070</p>
+                            <del>£572.95</del> 
+                            <h5>£572.95</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -485,9 +487,9 @@
                     <img src="/images/products/Memory/Corsair1.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 1</p>
-                            <h5>£20.00</h5>
+                            <p>CORSAIR VENGEANCE LPX 8GB</p>
                             <del>£50.00</del> 
+                            <h5>£33.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -496,9 +498,9 @@
                     <img src="images/products/Memory/Corsair16.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>CORSAIR VENGEANCE LPX 16GB</p>
+                            <del>£75.00</del> 
+                            <h5>£47.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -507,9 +509,9 @@
                     <img src="images/products/Memory/Corsair64.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>CORSAIR VENGEANCE LPX 32GB</p>
+                            <del>£200.00</del> 
+                            <h5>£160.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -518,9 +520,9 @@
                     <img src="images/products/Memory/Fury16.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
+                            <p>KINGSTON HYPERX FURY 16GB</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -529,9 +531,9 @@
                     <img src="images/products/Memory/Fury8.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>KINGSTON HYPERX FURY 8GB</p>
+                            <del>£75.00</del> 
+                            <h5>£56.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -540,9 +542,9 @@
                     <img src="images/products/Memory/plat.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>CORSAIR DOMINATOR PLAT 16GB</p>
+                            <del>£300.00</del> 
+                            <h5>£250.00</h5> 
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -551,9 +553,9 @@
                     <img src="images/products/Memory/TridentZ16.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>G.SKILL TRIDENT Z RGB 16GB</p>
+                            <del>£10.00</del> 
+                            <h5>£105.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -562,9 +564,9 @@
                     <img src="images/products/Memory/TridentZ32.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>G.SKILL TRIDENT Z 32GB</p>
+                            <del>£200.00</del> 
+                            <h5>£160.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -581,9 +583,9 @@
                     <img src="/images/products/Monitors/27gl850_01.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 1</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>LG 27GL850-B 1440P 144Hz</p>
+                            <del>£467.67</del> 
+                            <h5>£467.50</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -592,9 +594,9 @@
                     <img src="images/products/Monitors/Acer SB220Qbi.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>ACER SB220QBI</p>
+                            <del>£304.00</del> 
+                            <h5>£304.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -603,9 +605,9 @@
                     <img src="images/products/Monitors/AOC C27G1.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>AOC C27G1 1080P curved</p>
+                            <del>£309.95</del> 
+                            <h5>£309.95</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -614,9 +616,9 @@
                     <img src="images/products/Monitors/Asus PB277Q.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Asus PB277Q 75Hz 1440P</p>
+                            <del>£273.00</del> 
+                            <h5>£273.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -625,9 +627,9 @@
                     <img src="images/products/Monitors/Dell P2217H.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Dell P2217H 60Hz</p>
+                            <del>£236.92</del> 
+                            <h5>£236.92</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -636,9 +638,9 @@
                     <img src="images/products/Monitors/Dell S3220DGF.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>Dell S3220DGF 1440p Curved</p>
+                            <del>£399.99</del> 
+                            <h5>£399.99</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -647,9 +649,9 @@
                     <img src="images/products/Monitors/LG 27UD58-B.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>LG 27UD58-B</p>
+                            <del>£600.00</del> 
+                            <h5>£508.80</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -658,9 +660,9 @@
                     <img src="images/products/Monitors/MSI Optix MAG321CURV.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
-                            <del>£50.00</del> 
+                            <p>MSI OPTIX MAG321CURV 4K</p>
+                            <del>£566.72</del> 
+                            <h5>£566.72</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -678,8 +680,8 @@
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
-                            <h5>£20.00</h5>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -688,9 +690,9 @@
                     <img src="images/products/Mboards/B460M_Pro4-2.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -699,9 +701,9 @@
                     <img src="images/products/Mboards/B550M PRO-VDH.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -710,9 +712,9 @@
                     <img src="images/products/Mboards/MEG UNITY.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -721,9 +723,9 @@
                     <img src="images/products/Mboards/MEG Z490I.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -732,9 +734,9 @@
                     <img src="images/products/Mboards/ROG STRIX X570 Mini.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -743,9 +745,9 @@
                     <img src="images/products/Mboards/ROG STRIX Z490.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -754,9 +756,9 @@
                     <img src="images/products/Mboards/STRIX B550.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -774,8 +776,8 @@
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
-                            <h5>£20.00</h5>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>      
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -784,9 +786,9 @@
                     <img src="images/products/PSUs/BR 500W.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -795,9 +797,9 @@
                     <img src="images/products/PSUs/CX450M.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -806,9 +808,9 @@
                     <img src="images/products/PSUs/FOCUS 650W.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -817,9 +819,9 @@
                     <img src="images/products/PSUs/G3750W.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -828,9 +830,9 @@
                     <img src="images/products/PSUs/M12II.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -839,9 +841,9 @@
                     <img src="images/products/PSUs/PRIME.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -850,9 +852,9 @@
                     <img src="images/products/PSUs/TXM 650W.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -870,8 +872,8 @@
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
-                            <h5>£20.00</h5>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -880,9 +882,9 @@
                     <img src="images/products/Software/Bitdefender.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5> 
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -891,9 +893,9 @@
                     <img src="images/products/Software/mcafee.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -902,9 +904,9 @@
                     <img src="images/products/Software/nord.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -913,9 +915,9 @@
                     <img src="images/products/Software/Office.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -924,9 +926,9 @@
                     <img src="images/products/Software/project2019pro.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -935,9 +937,9 @@
                     <img src="images/products/Software/windows-10 pro.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -946,9 +948,9 @@
                     <img src="images/products/Software/windows-10.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -966,8 +968,8 @@
                     <div class="products-innerLeft">
                         <div>
                             <p>Item Name 1</p>
-                            <h5>£20.00</h5>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -976,9 +978,9 @@
                     <img src="images/products/Storage/Samsung.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 2</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -987,9 +989,9 @@
                     <img src="images/products/Storage/Seagata Barracuda 1TB.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 3</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -998,9 +1000,9 @@
                     <img src="images/products/Storage/seagate-barracuda-2tb-left-3000x3000.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 4</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -1009,9 +1011,9 @@
                     <img src="images/products/Storage/storage17-min.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 5</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -1020,9 +1022,9 @@
                     <img src="images/products/Storage/wd-black-desktop-4tb.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 6</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -1031,9 +1033,9 @@
                     <img src="images/products/Storage/WDC-Caviar-Blue.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 7</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
@@ -1042,9 +1044,9 @@
                     <img src="images/products/Storage/Samsung.png" alt="">
                     <div class="products-innerLeft">
                         <div>
-                            <p>Item Name 8</p>
-                            <h5>£20.00</h5>
+                            <p>Item Name 1</p>
                             <del>£50.00</del> 
+                            <h5>£20.00</h5>
                         </div>
                         <button class="addToCart">Add to cart</button>
                     </div>
