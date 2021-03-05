@@ -49,7 +49,6 @@ nav li {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
-    display: inline-block;
 }
 
 nav li span {
@@ -82,4 +81,86 @@ li a:hover {
 .cart a {
     cursor: pointer;
     text-decoration: none;
+}
+
+header .cartIcon a {
+    padding: 10px;
+    padding-right: 5px;
+    background-color: var(--containers);
+    text-decoration: none;
+    color: black;
+    top: 200px;
+    width: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header .cartIcon a:hover {
+    background-color: var(--background);
+    color: var(--textGeneral);
+    transition: 0.5s;
+}
+
+.productContainer {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.productContainer i {
+    font-size: 25px;
+    color: var(--containers);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.productHeader {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start; /* Places at start of the line */ 
+    border-bottom: var(--textHeaders) solid 4px;
+}
+
+.productTitle {
+    width: 45%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price {
+    width: 15%;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.qty {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    width: 10%;
+    font-weight: bold;
+}
+
+.products {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: bold;
 }
