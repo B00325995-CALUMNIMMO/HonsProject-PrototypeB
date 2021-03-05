@@ -38,12 +38,11 @@ function cartQtyRefresh() { // checks if user has saved anything before to local
     let prodNumbers = localStorage.getItem('cartNumbers');
 
     if(prodNumbers) {
-        document.querySelector('cartIcon span').textContent = prodNumbers;
+        document.querySelector('.cartIcon span').textContent = prodNumbers;
     }
 }
 
 function cartQty(item) { // this method does not work on firefox
-
     let prodNumbers = localStorage.getItem('cartNumbers');
     prodNumbers = parseInt(prodNumbers); // Converts to number from str
 
@@ -80,6 +79,7 @@ function setItems(item) {
 
     
     localStorage.setItem("itemsInCart", JSON.stringify(cartItems));
+    console.log("Cart item is: ", cartItems);
 }
 
 function costTotal(item) {
@@ -97,22 +97,40 @@ function costTotal(item) {
 function cartDisplay() {
     let cartItems = localStorage.getItem("itemsInCart");
     cartItems = JSON.parse(cartItems);
-    let productContainer = document.querySelector(".products");
-
-    if(cartItems && productContainer) {
-        productContainer.innerHTML = '';
-        Object.values(cartItems).map(item => {
-            productContainer.innerHTML += `
-            <div class="product">
-                <i class="fa fa-times-circle" aria-hidden="true"></i>
-                <img src="./images/${item.tag}.png">
-                <span>${item.name}</span>
-            </div>
-            `
-        });
-    }
+    let productContainer = document.querySelector(".productsCart");
+    let cartCost = localStorage.getItem('costTotal');
 
     console.log(cartItems);
+        if(cartItems && productContainer) {
+            productContainer.innerHTML = '';
+            Object.values(cartItems).map(item => {
+            productContainer.innerHTML += /* Finds "productsCart" within HTML and inserts it into HTML code */ 
+            ` 
+            <div class="product">
+                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                <img src="./images/products/Accessories/${item.tag}.png">
+                <span>${item.title}</span>
+            </div>
+            <div class="price">£${item.price}</div>
+            <div class="qty">
+                <i class="fas fa-arrow-alt-circle-up"></i>
+                <span>${item.inCart}</span>
+                <i class="fas fa-arrow-alt-circle-down"></i>
+            </div>
+            <div class="total">
+                £${item.inCart * item.price}
+            </div>
+            `;
+        });
+
+        productContainer.innerHTML += `
+        <div class="basketTotalContainer">
+            <h4 class="basketTotalTitle">Basket Total</h4>
+            <h4 class="basketTotal>£${cartCost}</h4>
+        </div>
+        `;
+    }
 }
 
 cartQtyRefresh();
+cartDisplay();
