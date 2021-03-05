@@ -4,25 +4,25 @@ let carts = document.querySelectorAll('.addToCart');
      {
          title: 'Arctic Silver 5 POLYSYNTH 12G',
          tag: 'Arctic Silver 5',
-         price: 15,
+         price: 15.22,
          inCart: 0
      },
      {
-         title: 'Thermal Grizzly Kryonaut',
-         tag: 'Kryo_1g',
-         price: 7,
-         inCart: 0
+        title: 'Corsair K95 RGB Platinum Keyboard',
+        tag: 'Corsair K95 RGB Platinum Keyboard',
+        price: 190.00,
+        inCart: 0
      },
      {
-         title: 'Corsair K95 RGB Platinum Keyboard',
-         tag: 'Corsair K95 RGB Platinum Keyboard',
-         price: 190,
-         inCart: 0
+        title: 'Thermal Grizzly Kryonaut',
+        tag: 'Kryo_1g',
+        price: 6.69,
+        inCart: 0
      },
      {
          title: 'Logitech G502 HERO Wired Mouse',
          tag: 'Logitech G502 HERO Wired Mouse',
-         price: 71,
+         price: 70.52,
          inCart: 0
      }
  ];
@@ -30,6 +30,7 @@ let carts = document.querySelectorAll('.addToCart');
 for (let i=0; i < carts.length; i++) {
     carts[i].addEventListener('click', () => {
         cartQty(products[i]);
+        costTotal(products[i]);
     })
 }
 
@@ -57,29 +58,40 @@ function cartQty(item) { // this method does not work on firefox
     setItems(item);
 }
 
-function setItems(products) {
+function setItems(item) {
     let cartItems = localStorage.getItem('itemsInCart');
     cartItems = JSON.parse(cartItems);
     
 
     if(cartItems != null) {
-        if(cartItems[products.tag] == undefined) {
+        if(cartItems[item.tag] == undefined) {
             cartItems = {
                 ...cartItems, // called a spread operator, allows me to select any number of items, useful!
-                [products.tag]: products
+                [item.tag]: item
             }
         }
-        cartItems[products.tag].inCart += 1;
+        cartItems[item.tag].inCart += 1;
     } else {
-        products.inCart = 1
+        item.inCart = 1
         cartItems = {
-            [products.tag]: products
+            [item.tag]: item
         }
     }
 
     
     localStorage.setItem("itemsInCart", JSON.stringify(cartItems));
-    console.log("Cart item is: ", cartItems);
+}
+
+function costTotal(item) {
+    let cartCost = localStorage.getItem('costTotal');
+
+    if(cartCost != null) {
+        cartCost = parseInt(cartCost); // Don't move this, otherwise funct will break
+        localStorage.setItem("costTotal", cartCost + item.price);
+    } else {
+        localStorage.setItem("costTotal", item.price);
+    }
+    
 }
 
 cartQtyRefresh();
