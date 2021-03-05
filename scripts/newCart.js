@@ -41,7 +41,6 @@ function cartQtyRefresh() { // checks if user has saved anything before to local
     }
 }
 
-
 function cartQty(item) { // this method does not work on firefox
 
     let prodNumbers = localStorage.getItem('cartNumbers');
@@ -58,15 +57,26 @@ function cartQty(item) { // this method does not work on firefox
     setItems(item);
 }
 
-function setItems(item) {
+function setItems(products) {
     let cartItems = localStorage.getItem('itemsInCart');
     cartItems = JSON.parse(cartItems);
+    
 
-    products.inCart = 1
-
-    cartItems = {
-        [products.tag]: products
+    if(cartItems != null) {
+        if(cartItems[products.tag] == undefined) {
+            cartItems = {
+                ...cartItems, // called a spread operator, allows me to select any number of items, useful!
+                [products.tag]: products
+            }
+        }
+        cartItems[products.tag].inCart += 1;
+    } else {
+        products.inCart = 1
+        cartItems = {
+            [products.tag]: products
+        }
     }
+
     
     localStorage.setItem("itemsInCart", JSON.stringify(cartItems));
     console.log("Cart item is: ", cartItems);
