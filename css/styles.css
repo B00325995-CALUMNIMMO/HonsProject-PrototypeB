@@ -167,6 +167,11 @@ main .mainBanner {
     justify-content: left;
     overflow: hidden;
     background: var(--background);
+    background-image: url(/images/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: websiteOnLoad 2s;
 }
 
 main .mainBanner div{
@@ -176,8 +181,8 @@ main .mainBanner div{
 
 main .mainBanner div h1{
     position: relative;
+    align-items: center;
     top: 100px;
-    left: 50px;
     letter-spacing: 10px;
     font-size: 30px;
     color: var(--textGeneral);
@@ -196,16 +201,12 @@ main .mainBanner div button {
     color: black;
 }
 
-main .mainBanner img {
-    background-size: 1000px;
-    height: 1000px;
-}
-
 .featured {
     width: 96%;
     height: 150px;
     display: flex;
     justify-content: space-around;
+    animation: websiteOnLoad 3s;
 }
 
 .featured .featuredItems {
@@ -349,3 +350,263 @@ footer ul li a {
     text-decoration: none;
     color: var(--textHeaders);
 }
+
+/* KEY FRAMES START */ 
+@keyframes websiteOnLoad {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/* KEY FRAMES END */
+
+/* MEDIA QUERIES START */ 
+@media screen and (max-width: 1400px) {
+    header {
+        width: 96%;
+        height: 110px;
+        margin: 0 auto;
+    }
+    
+    header .logo {
+        width: 15%;
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+        position: relative;
+    }
+    
+    header .logo img{
+        width: 10%;
+        height: 10%;
+        padding-top: 5px;
+    }
+    
+    header .cx {
+        width: 85%;
+        float: left;
+    }
+    
+    header .searchBar input{
+        display: none;
+    }
+    
+    header .head ul li {
+        list-style: none;
+        float: left;
+        padding: 5px;
+        margin: 10px;
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    header .head ul li a:hover{
+        color: var(--textGeneral);
+        cursor: pointer;
+    }
+
+    header .searchBar a{
+        width: 365px;
+        height: 40px;
+        border: 1px solid var(--containers);
+        position: relative;
+        text-decoration: none;
+        transition: 0.4s;
+        align-items: center;
+        font-size: 18px;
+        
+    }
+    
+    header .searchBar a:hover {
+        transition: 0.4s;
+        transition-delay: 0.1s;
+        color: var(--textGeneral);
+        background: whitesmoke;
+    }
+    
+    header .searchBar .cartIcon a{
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+        position: absolute;
+        transition: 0.4s;
+    }
+    
+    header .searchBar .cartIcon a:hover {
+        transition: 0.4s;
+        transition-delay: 0.1s;
+        color: var(--textGeneral);
+        background: whitesmoke;
+    }
+
+    nav {
+        width: 96%;
+        height: 124px;
+        margin: 0px auto;
+        background: var(--containers);
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 12px;
+        margin: 10px 20px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    nav ul li a>i {
+        margin-right: 10px;
+    }
+
+    .cl {
+        width: 96%;
+        height: 750px;
+    }
+    
+    .products {
+        width: 105%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .products .products-inner {
+        width: 20%;
+    }
+    
+    .products .products-inner img {
+        max-width: 100%;
+        height: 10vh; 
+        margin-bottom: 50px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1025) {
+    header {
+        width: 96%;
+        height: 110px;
+        margin: 0 auto;
+    }
+    
+    header .logo {
+        width: 15%;
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+        position: relative;
+    }
+    
+    header .logo img{
+        width: 10%;
+        height: 10%;
+        padding-top: 5px;
+    }
+    
+    header .cx {
+        width: 100%;
+        float: left;
+    }
+    
+    header .searchBar input{
+        display: none;
+    }
+    
+    header .head ul li {
+        display: none;
+    }
+    
+    header .head ul li a:hover{
+        color: var(--textGeneral);
+        cursor: pointer;
+    }
+
+    header .searchBar a{
+        width: 365px;
+        height: 40px;
+        border: 1px solid var(--containers);
+        position: relative;
+        text-decoration: none;
+        transition: 0.4s;
+        align-items: center;
+        font-size: 18px;
+        
+    }
+    
+    header .searchBar a:hover {
+        transition: 0.4s;
+        transition-delay: 0.1s;
+        color: var(--textGeneral);
+        background: whitesmoke;
+    }
+    
+    header .searchBar .cartIcon a{
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+        position: absolute;
+        transition: 0.4s;
+    }
+    
+    header .searchBar .cartIcon a:hover {
+        transition: 0.4s;
+        transition-delay: 0.1s;
+        color: var(--textGeneral);
+        background: whitesmoke;
+    }
+
+    nav {
+        width: 96%;
+        height: 124px;
+        margin: 0px auto;
+        background: var(--containers);
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 12px;
+        margin: 10px 20px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    nav ul li a>i {
+        margin-right: 10px;
+    }
+
+    .cl {
+        width: 96%;
+        height: 750px;
+    }
+    
+    .products {
+        width: 105%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .products .products-inner {
+        width: 20%;
+    }
+    
+    .products .products-inner img {
+        max-width: 100%;
+        height: 10vh; 
+        margin-bottom: 50px;
+        object-fit: cover;
+    }
+}
+/* MEDIA QUERIES END */ 

@@ -1,20 +1,10 @@
 let carts = document.querySelectorAll('.addToCart');
 
-    // Fetch API
-    fetch('newProducts.json').then((resp) => resp.json()).then(function(data) {
-            let products= data.results;
-            return products
-        });
-
-        //return response.json();
-    // }).then(function (obj) {
-    //     console.log(obj);
-    // }).catch(function (error) {
-    //     console.error('nope');
-    //     console.error(error);
-    // });
-
-//  let products = newProducts.json;
+fetch("newProducts.json")
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(err => console.log('nope'), err);
+    
 
 for (let i=0; i < carts.length; i++) {
     carts[i].addEventListener('click', () => {
